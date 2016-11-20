@@ -499,7 +499,7 @@ section {
 		position: relative;
 		font-size: 20px;
 		overflow: hidden;
-		opacity: 0.8;
+		opacity: 1;
 	}
 
 	.stockimage {
@@ -556,9 +556,9 @@ section {
 		clear: both;
 	}
 
-	#imagebox1:hover, #imagebox2:hover, #imagebox3:hover, #imagebox4:hover, #imagebox5:hover{
+	/*#imagebox1:hover, #imagebox2:hover, #imagebox3:hover, #imagebox4:hover, #imagebox5:hover{
 		opacity: 1;
-	}
+	}*/
 
 	.stockimage:hover {
 		height: 200px;
@@ -577,8 +577,8 @@ section {
  	}
 
 	#headerbox {
-		min-width: 630px;
-		max-width: 630px;
+		min-width: 640px;
+		max-width: 640px;
 		height: 120px;
 		margin: 0 auto 0 auto;
 		overflow: auto;
@@ -601,7 +601,8 @@ section {
 
 	.navlink {
 		font-size: 18px;
-		padding: 65px;
+		padding-left: 65px;
+		padding-right: 65px;
 	}
 
 /* about page - 640px */
@@ -634,7 +635,7 @@ section {
 	}
 
 	#photo {
-		height:490px;
+		height:480px;
 		width: 100%;
 		padding: 40px;
 		padding-bottom: 30px;
