@@ -700,3 +700,110 @@ section {
 /* 640px view design ends */
 
 }
+
+@media screen and (min-width: 320px) and (max-width: 480px){
+
+	/* header - smaller phones portrait mode */
+
+	header {
+ 		width: 100%;
+		height: 120px;
+		margin-bottom: 0px;
+ 	}
+
+	#headerbox {
+		min-width: 320px;
+		max-width: 100%;
+		height: 120px;
+		margin: 0 auto 0 auto;
+		overflow: auto;
+		clear:both;
+	}
+
+	#logo {
+		font-size: 25px;
+		width: 100%;
+		height: 70px;
+		padding: 22px;
+		/*padding-top: 19px;*/
+		margin: auto 0 auto 0;
+	}
+
+	nav{
+		width:100%;
+		padding-top: 16px;
+		padding-bottom: 0px;
+	}
+
+	.navlink {
+		font-size: 18px;
+		padding-left: 10px;
+		padding-right: 10px;
+	}
+
+	/* photo on about page - smaller phones portrait mode */
+	
+	#photo {
+		height: auto;
+		width: 100%;
+		padding: 0px;
+		margin-right: 10px;
+		padding-bottom: 30px;
+		padding-top: 20px;
+	}
+
+	/* portfolio page - smaller phones portrait mode */
+
+	#imagepair1, #imagepair2 {
+		box-sizing: border-box;
+		overflow: auto;
+		height: auto;
+		width: 100%;
+		clear: both;
+		margin: 0 auto 0 auto;
+	}
+
+	#imagepair3 {
+		box-sizing: border-box;
+		overflow: auto;
+		height: auto;
+		width: 100%;
+		clear: both;
+		margin: 0 auto 0 auto;
+	}
+
+	#imagebox1, #imagebox2, #imagebox3, #imagebox4, #imagebox5 {
+		height: auto;
+		width: 100%;
+		margin: 0px;
+		margin-bottom: 30px;
+		opacity: 1;	
+	}
+
+
+	.stockimage {
+		height: auto;
+		width: 100%;
+		-webkit-transition: all 1s ease;
+	     -moz-transition: all 1s ease;
+	       -o-transition: all 1s ease;
+	      -ms-transition: all 1s ease;
+	          transition: all 1s ease;
+	}
+	.stockimage:hover {
+		height: 255px;
+		width: 360px;
+	}
+
+
+	section {
+		width: 100%;
+		height: 50px;
+		padding-top: 8px;
+		position: absolute;
+		bottom: 20px;
+	} 
+
+/* smaller phones portrait mode design ends */
+
+}
