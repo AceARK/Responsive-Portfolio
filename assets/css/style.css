@@ -701,9 +701,11 @@ section {
 
 }
 
+/* Extra media query to accomodate for portrait mode on phones */
+
 @media screen and (min-width: 320px) and (max-width: 480px){
 
-	/* header - smaller phones portrait mode */
+/* header - phones portrait mode */
 
 	header {
  		width: 100%;
@@ -741,7 +743,7 @@ section {
 		padding-right: 10px;
 	}
 
-	/* photo on about page - smaller phones portrait mode */
+/* photo on about page - phones portrait mode */
 	
 	#photo {
 		height: auto;
@@ -752,7 +754,7 @@ section {
 		padding-top: 20px;
 	}
 
-	/* portfolio page - smaller phones portrait mode */
+/* portfolio page - phones portrait mode */
 
 	#imagepair1, #imagepair2 {
 		box-sizing: border-box;
@@ -773,7 +775,7 @@ section {
 	}
 
 	#imagebox1, #imagebox2, #imagebox3, #imagebox4, #imagebox5 {
-		height: auto;
+		height: 245px;
 		width: 100%;
 		margin: 0px;
 		margin-bottom: 30px;
@@ -782,7 +784,7 @@ section {
 
 
 	.stockimage {
-		height: auto;
+		height: 245px;
 		width: 100%;
 		-webkit-transition: all 1s ease;
 	     -moz-transition: all 1s ease;
@@ -804,6 +806,31 @@ section {
 		bottom: 20px;
 	} 
 
-/* smaller phones portrait mode design ends */
+
+/* connect with me - phones portrait mode */
+
+	#connect-options {
+		font-size: 22px;
+		width: 100%;
+		height: 180px;
+		clear: both;
+		margin-top: 12px;
+	}
+
+	#gitpic, #linkedinpic, #stackpic {
+		height: 65px;
+		width: 65px;
+		margin:2px;
+		border: 5px solid white;
+	}
+
+	#gitpic:hover, #linkedinpic:hover, #stackpic:hover{
+		height: 65px;
+		width: 65px;
+		margin:2px;	
+		border: 0px;
+	}
+
+/* phones portrait mode design ends */
 
 }
